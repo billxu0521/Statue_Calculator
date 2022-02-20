@@ -17,7 +17,7 @@ const creRemainOp = () => {
   for (let i = 25; i > 0; i--) {
     const creOption = document.createElement("option");
     creOption.value = i;
-    creOption.innerText = "あと" + i + "回";
+    creOption.innerText = "還有" + i + "次";
     getRemainSelect.appendChild(creOption);
   }
 }
